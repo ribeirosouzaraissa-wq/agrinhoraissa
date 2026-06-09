@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026</title>
+    <style>
+        /* Reset de Estilos Básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary-color: #2e7d32; /* Verde Escuro (Meio Ambiente / Agro) */
+            --secondary-color: #1b5e20;
+            --accent-color: #f57c00; /* Laranja (Força / Produção / Sol) */
+            --light-bg: #f1f8e9; /* Fundo Claro Ecológico */
+            --dark-text: #263238;
+            --white: #ffffff;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--accent-color);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Seção do Tema Principal */
+        .intro-section {
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .intro-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        /* Grid de Pilares (Produção x Meio Ambiente) */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background-color: var(--white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .card.production {
+            border-top-color: var(--accent-color);
+        }
+
+        .card h3 {
+            margin-bottom: 0.8rem;
+            color: var(--dark-text);
+        }
+
+        .card ul {
+            list-style-position: inside;
+            margin-top: 0.5rem;
+        }
+
+        .card li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Destaque para Redação / Projetos */
+        .info-box {
+            background-color: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .info-box h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 1rem;
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn-link:hover {
+            background-color: #e65100;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade Básica */
+     "   @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho com o Tema do Concurso -->
+    <header>
+        <h1>Agro 2026.</h1>
+        <p>"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</p>
+    </header>
+
+    <!-- Conteúdo da Página -->
+    <main>
+        
+        <!-- Seção de Contextualização -->
+        <section class="intro-section">
+            <h2>O campo</h2>
+            <p>O agronegócio é a coisa que o povo mais fala no mundo por que neles podemos falar sobre plantação, agro, pecuária, etc. No entanto, o verdadeiro progresso só acontece quando caminhamos lado a lado com a preservação da natureza. Encontrar esse ponto de equilíbrio é a chave para garantir recursos para as próximas gerações.</p>
+        </section>
+
+        <!-- Pilares do Equilíbrio -->
+        <section class="grid-container">
+            
+            <!-- Card Focado em Produção -->
+            <div class="card production">
+                <h3>🌾 Agro Forte (Produção)</h3>
+                <p>Ele sugire alimentos para os animais e para as pessoas.</p>
+                <ul>
+                    <li>Uso de tecnologias.</li>
+                    <li>Aumento da produtividade do terreno ou podemos dizer hectares.</li>
+                    <li>Fortalecimento das comunidades rurais.</li>
+                </ul>
+            </div>
+
+            <!-- Card Focado em Sustentabilidade -->
+            <div class="card">
+                <h3>🌱 Futuro Sustentável (Preservação)</h3>
+                <p>Ele ajuda a proteger o meio ambiente para não matar-lós:</p>
+                <ul>
+                    <li>Manejo e técnicas de Sistema de plantios.</li>
+                    <li>Conservação das matas ciliares.</li>
+                    <li>Adoção consciente de bioinsumos e rotação de culturas.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- Caixa informativa sobre o Concurso de Redação / Robótica -->
+        <section class="info-box">
+            <h3>Participe do Concurso Agrinho</h3>
+            <p>Seja através de desenhos, redações, projetos pedagógicos ou soluções de robótica, o seu protagonismo faz a diferença na construção desse futuro equilibrado.</p>
+            <a href="https://agrinho.sistemafaep.org.br/" class="btn-link" target="_blank" rel="noopener">Acessar Portal Agrinho</a>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 - Concurso Agrinho. Inspirando ações sustentáveis nas escolas e no campo.</p>
+    </footer>
+
+</body>
+</html>

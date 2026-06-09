@@ -1,1 +1,1 @@
-# agrinhoraissa
+Projeto foi desenvolvido para o concurso agrinho 2026 com o tema: agro forte, futuro sustentavél: equilibrio entre a produção e o meio ambiente= meu projeto foi feito pra saber para oque o agro nós fornece.# agrinhoraissa
